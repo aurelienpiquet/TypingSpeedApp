@@ -1,6 +1,4 @@
-import nltk
-from nltk.corpus import words
-import json, os, random, keyboard
+import os, random
 
 CUR_dir = os.path.dirname(os.path.abspath(__file__))    
 dictionnary_url = os.path.join(CUR_dir, 'resources/en-basic.json')
