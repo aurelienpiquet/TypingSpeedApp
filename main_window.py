@@ -154,6 +154,7 @@ class Mainwindow(QtWidgets.QWidget):
   
     def check_results(self):        
         self.le_string.setEnabled(False)
+        self.label_CPM.setFocus()
         wpm = 0
         liste = []
         for i in range(0, len(self.dictionnary)):
