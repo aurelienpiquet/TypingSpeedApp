@@ -102,8 +102,7 @@ class Mainwindow(QtWidgets.QWidget):
     ##### Window Methods #############
 
     def displayText(self):
-        self.i = 0
-        self.ii = 0
+        self.i = 0        
         self.nb_mot = 0
         self.dictionnary = Dictionnary(200).random_list_word()
         self.pte_string.clear()
@@ -130,7 +129,6 @@ class Mainwindow(QtWidgets.QWidget):
 
     def checking(self):
         self.pte_string.setCurrentRow(self.nb_mot)
-
         if keyboard.is_pressed('backspace'):
             if self.i == 0 :
                 pass
