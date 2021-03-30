@@ -1,4 +1,3 @@
-from json.decoder import JSONDecodeError
 from PySide2 import QtWidgets, QtCore, QtGui
 
 from Dictionnary import Dictionnary
